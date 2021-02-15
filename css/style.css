@@ -16,7 +16,7 @@
 
 /* MACROAREA */
 .container{
-    width:44%;
+    width:45%;
     margin: auto;
 }
 
@@ -40,7 +40,7 @@ section{
 
 .block{
     width:25%;
-    height:240px;
+    height:250px;
     float: left;
     padding: 12px;
 }
@@ -52,6 +52,23 @@ section{
     background-size: contain;
     border-radius: 10px;
     box-shadow: 2px 2px rgb(167, 164, 164);
+    font-size:30px;
+    text-align: center;
+}
+
+.card > h3{
+    position: relative;
+    top: 170px;
+}
+
+.active{
+    background-color: white;
+    background-image: url(../img/noun_air_balloon_3134741.png);
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: 20px;
+    background-repeat: no-repeat;
+    color:#e61986;
 }
 
 /* FOOTER */
