@@ -1,7 +1,57 @@
+/* GENERAL */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Nerko One', cursive;
+    text-shadow: 2px 2px rgb(167, 164, 164);
 }
 
+/* UTILITIES */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* MACROAREA */
+.container{
+    width:44%;
+    margin: auto;
+}
+
+body{
+    background-color: #add8e6;
+}
+
+/* HEADER */
+header{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 43px;
+    text-transform: uppercase;
+    color:white;
+}
+
+/* MAIN */
+section{
+    margin-bottom: 10px;
+}
+
+.block{
+    width:25%;
+    height:240px;
+    float: left;
+    padding: 12px;
+}
+
+.card{
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/pattern.png);
+    background-size: contain;
+    border-radius: 10px;
+    box-shadow: 2px 2px rgb(167, 164, 164);
+
+
+/* FOOTER */
